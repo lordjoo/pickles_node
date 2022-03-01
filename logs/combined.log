@@ -1,0 +1,85 @@
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:34:00:340"}
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:34:13:3413"}
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:35:08:358"}
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:35:13:3513"}
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:36:00:360"}
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:36:02:362"}
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:36:14:3614"}
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:36:28:3628"}
+{"level":"info","message":"hs","timestamp":"2022-02-28 01:37:18:3718"}
+{"level":"error","message":"hs","timestamp":"2022-02-28 01:37:34:3734"}
+{"level":"error","message":"shop doesn't have plugin.json file","timestamp":"2022-02-28 01:38:33:3833"}
+{"level":"error","message":"shop doesn't have plugin.json file","timestamp":"2022-02-28 01:38:39:3839"}
+{"level":"error","message":"shop doesn't have plugin.json file","timestamp":"2022-02-28 01:38:49:3849"}
+{"level":"error","message":"shop doesn't have plugin.json file","timestamp":"2022-02-28 01:41:16:4116"}
+{"level":"debug","message":"pickles.json was not found but we created it","timestamp":"2022-02-28 01:55:54:5554"}
+{"level":"debug","message":{"entryFile":"./plugins/blog/src/blog.js","name":"blog_plugin","path_on_disk":"/home/lordjoo/work/pickles_node/plugins/blog"},"timestamp":"2022-02-28 02:12:36:1236"}
+{"level":"debug","message":{"entryFile":"./plugins/blog/src/blog.js","name":"blog_plugin","path_on_disk":"/home/lordjoo/work/pickles_node/plugins/blog"},"timestamp":"2022-02-28 02:12:37:1237"}
+{"level":"debug","message":{"entryFile":"./plugins/blog/src/blog.js","name":"blog_plugin","path_on_disk":"/home/lordjoo/work/pickles_node/plugins/blog"},"timestamp":"2022-02-28 02:13:33:1333"}
+{"level":"debug","message":{"entryFile":"./plugins/blog/src/blog.js","name":"blog_plugin","path_on_disk":"/home/lordjoo/work/pickles_node/plugins/blog"},"timestamp":"2022-02-28 02:14:58:1458"}
+{"level":"debug","message":{"entryFile":"./plugins/blog/src/blog.js","name":"blog_plugin","path_on_disk":"/home/lordjoo/work/pickles_node/plugins/blog"},"timestamp":"2022-02-28 02:18:02:182"}
+{"level":"debug","message":{"entryFile":"./plugins/blog/src/blog.js","name":"blog_plugin","path_on_disk":"/home/lordjoo/work/pickles_node/plugins/blog"},"timestamp":"2022-02-28 02:18:11:1811"}
+{"level":"debug","message":{"entryFile":"./plugins/blog/src/blog.js","name":"blog_plugin","path_on_disk":"/home/lordjoo/work/pickles_node/plugins/blog"},"timestamp":"2022-02-28 02:18:34:1834"}
+{"level":"debug","message":"creating 'plugins' folder","timestamp":"2022-03-01 02:33:15:3315"}
+{"error":"EEXIST: file already exists, mkdir '/home/lordjoo/work/pickles_node/plugins'","level":"error","message":"error creating 'plugins' folder","timestamp":"2022-03-01 02:33:15:3315"}
+{"level":"debug","message":"creating 'plugins' folder","timestamp":"2022-03-01 02:35:41:3541"}
+{"error":"EEXIST: file already exists, mkdir '/home/lordjoo/work/pickles_node/plugins'","level":"error","message":"error creating 'plugins' folder","timestamp":"2022-03-01 02:35:41:3541"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 03:59:08:598"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 03:59:08:598"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 03:59:30:5930"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 03:59:30:5930"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:01:35:135"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:01:35:135"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:02:24:224"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:02:24:224"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:02:48:248"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:02:48:248"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:03:07:37"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:03:07:37"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:03:44:344"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:03:44:344"}
+{"level":"error","message":"","timestamp":"2022-03-01 04:05:58:558"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:05:58:558"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:05:58:558"}
+{"level":"error","message":"/home/lordjoo/work/pickles_node/plugins/blog/plugin.json doesn;t contain a valid json","timestamp":"2022-03-01 04:07:08:78"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:07:08:78"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:07:08:78"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:08:38:838"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:08:38:838"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:17:50:1750"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:17:50:1750"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:19:12:1912"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:19:12:1912"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:20:42:2042"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:20:42:2042"}
+{"level":"error","message":"missing required keys in plugin.json","timestamp":"2022-03-01 04:20:49:2049"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:20:49:2049"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:20:49:2049"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:20:56:2056"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:20:56:2056"}
+{"level":"error","message":"entryFile not exists","timestamp":"2022-03-01 04:24:49:2449"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:24:49:2449"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:24:49:2449"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:28:17:2817"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:28:17:2817"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:28:36:2836"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:28:36:2836"}
+{"level":"error","message":"entryFile doesn't exists","timestamp":"2022-03-01 04:28:41:2841"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:28:41:2841"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:28:41:2841"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:28:47:2847"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:28:47:2847"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:31:34:3134"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:31:34:3134"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:41:08:418"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:41:08:418"}
+{"level":"error","message":"blog doesn't have plugin.json ","timestamp":"2022-03-01 04:44:25:4425"}
+{"level":"warn","message":"blog ignored","timestamp":"2022-03-01 04:44:25:4425"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:44:25:4425"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:44:25:4425"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:44:51:4451"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:44:51:4451"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:45:33:4533"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:45:33:4533"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-01 04:46:00:460"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-01 04:46:00:460"}

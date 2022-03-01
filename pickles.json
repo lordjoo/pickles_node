@@ -1,0 +1,10 @@
+{
+  "active": [
+    {
+      "name": "blog_plugin",
+      "path_on_disk": "/home/lordjoo/work/pickles_node/plugins/blog",
+      "entryFile": "./plugins/blog/src/blog.js"
+    }
+  ],
+  "nonActive": []
+}
