@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // ------------------------------------------------------
 
 pickles.load(app);
-pickles.reload();
+
 
 // ------------------------------------------------------
 

@@ -33,6 +33,15 @@ const entryFileExists = (json_cont,plugin_path) => {
 }
 
 /**
+ * This function checks if the plugin name is matching the plugin name roles
+ * @param name
+ * @return {boolean}
+ */
+const validatePluginName = (name) => {
+    return /[a-zA-Z]+(_|-)[a-zA-Z]+/.test(name);
+}
+
+/**
  *
  * @return {boolean}
  * @param plugin_path
@@ -50,6 +59,7 @@ export const validate = (plugin_path) =>
     }
 
     return hasMainKeys(json_cont) &&
-        entryFileExists(json_cont, plugin_path);
+        entryFileExists(json_cont, plugin_path) &&
+        validatePluginName(json_cont.name);
 
 }

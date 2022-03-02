@@ -1,8 +1,9 @@
 import fs from "fs";
-import {PLUGINS_PATH, PLUGIN_OBJ_DEF, PICKLES_FILE_PATH} from "./consts";
+import {PLUGIN_OBJ_DEF, PLUGINS_PATH} from "./consts";
 import logger from "./utils/logger";
 import path from "path";
 import {validate} from "./pluginValidator"
+import {isActive, setPicklesJSONContent} from "./pluginEvents";
 
 /**
  * this function will return the plugin object definition that will be saved into pickles.json
@@ -18,6 +19,7 @@ const createPluginJSONObject = (plugin_path) => {
         }
     });
     newObj.pathOnDisk = plugin_path;
+    newObj.isActive = isActive(plugin_json.name)
     return newObj;
 }
 
@@ -51,7 +53,7 @@ const scanPluginFolder = () => {
 
 /**
  *
- * @return {boolean}
+ * @return {Array}
  */
 export const reload = () => {
     // check if 'plugins' folder exists
@@ -64,9 +66,12 @@ export const reload = () => {
             logger.error("error creating 'plugins' folder",{
                 error: e.message
             })
-            return 0;
+            return false;
         }
     }
-
-    const plugins = scanPluginFolder()
+    const plugins =  scanPluginFolder();
+    setPicklesJSONContent(plugins);
 };
+
+
+

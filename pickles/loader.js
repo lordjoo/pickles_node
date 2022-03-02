@@ -9,8 +9,8 @@ import path from "path";
  * @param entryFile the js entryFile for the plugin desired to be loaded
  */
 
-const runInitFunction = (app,entryFile) => {
-    const _plugin = require(path.resolve(process.cwd(),entryFile));
+const runInitFunction = (app,plugin) => {
+    const _plugin = require(path.resolve(process.cwd(),plugin.pathOnDisk,plugin.entryFile));
     if (typeof _plugin.init !== "function") return;
     app.use(_plugin.init());
 }
@@ -28,10 +28,10 @@ export const load = (app) => {
         logger.debug("pickles.json was not found but we created it")
     }
     let pickles = JSON.parse(fs.readFileSync(PICKLES_FILE_PATH))
-    let active_plugins = pickles.active
+    let active_plugins = pickles.filter(p => p.isActive)
     // start loading the active plugins into the express app
     active_plugins.forEach(plugin => {
-        runInitFunction(app,plugin.entryFile)
+        runInitFunction(app,plugin)
     })
 }
 

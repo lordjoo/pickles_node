@@ -1,10 +1,1 @@
-{
-  "active": [
-    {
-      "name": "blog_plugin",
-      "path_on_disk": "/home/lordjoo/work/pickles_node/plugins/blog",
-      "entryFile": "./plugins/blog/src/blog.js"
-    }
-  ],
-  "nonActive": []
-}
+[{"name":"blog_plugin","entryFile":"./src/blog.js","version":"1.0.0","pathOnDisk":"/home/lordjoo/work/pickles_node/plugins/blog","isActive":true}]
