@@ -3,7 +3,7 @@ import {PLUGIN_OBJ_DEF, PLUGINS_PATH} from "./consts";
 import logger from "./utils/logger";
 import path from "path";
 import {validate} from "./pluginValidator"
-import {isActive, setPicklesJSONContent} from "./pluginEvents";
+import {isActive, setPicklesJSONContent} from "./pickles_utils";
 
 /**
  * this function will return the plugin object definition that will be saved into pickles.json

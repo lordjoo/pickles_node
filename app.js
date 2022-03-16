@@ -7,6 +7,7 @@ import pickles from './pickles/pickles'
 // ------------------------------------------------------
 
 import errors from "./src/utils/error/errors.middleware.js";
+import pickles_routes from "./pickles/api/pickles_routes";
 
 // ------------------------------------------------------
 
@@ -25,7 +26,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // ------------------------------------------------------
 
 pickles.load(app);
-
+app.use(pickles_routes)
 
 // ------------------------------------------------------
 

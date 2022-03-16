@@ -223,3 +223,28 @@
 {"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-02 02:48:48:4848"}
 {"level":"warn","message":"shop ignored","timestamp":"2022-03-02 02:48:48:4848"}
 {"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-02 02:48:48:4848"}
+{"level":"error","message":"end-design doesn't have plugin.json ","timestamp":"2022-03-14 07:00:15:015"}
+{"level":"warn","message":"end-design ignored","timestamp":"2022-03-14 07:00:15:015"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-14 07:00:15:015"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-14 07:00:15:015"}
+{"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-14 07:00:15:015"}
+{"level":"error","message":"/home/lordjoo/work/pickles_node/plugins/end-design/plugin.json doesn't contain a valid json","timestamp":"2022-03-14 07:00:37:037"}
+{"level":"error","message":"missing required keys in plugin.json","timestamp":"2022-03-16 09:51:56:5156"}
+{"level":"error","message":"validation failed for pickles_node_sample","timestamp":"2022-03-16 09:51:56:5156"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-16 09:51:56:5156"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-16 09:51:56:5156"}
+{"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-16 09:51:56:5156"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-16 09:52:22:5222"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-16 09:52:22:5222"}
+{"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-16 09:52:22:5222"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-16 09:54:47:5447"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-16 09:54:47:5447"}
+{"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-16 09:54:47:5447"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-16 11:05:25:525"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-16 11:05:25:525"}
+{"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-16 11:05:25:525"}
+{"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-16 11:27:41:2741"}
+{"level":"error","message":"shop doesn't have plugin.json ","timestamp":"2022-03-16 11:28:42:2842"}
+{"level":"warn","message":"shop ignored","timestamp":"2022-03-16 11:28:42:2842"}
+{"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-16 11:28:42:2842"}
+{"level":"info","message":"pickles.json has been updated","timestamp":"2022-03-16 11:28:50:2850"}

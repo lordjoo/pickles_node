@@ -1,1 +1,9 @@
-[{"name":"blog_plugin","entryFile":"./src/blog.js","version":"1.0.0","pathOnDisk":"/home/lordjoo/work/pickles_node/plugins/blog","isActive":true}]
+[
+  {
+    "name": "books_manager",
+    "entryFile": "src/main.js",
+    "version": "v0.0.1",
+    "pathOnDisk": "/home/lordjoo/work/pickles_node/plugins/pickles_node_sample",
+    "isActive": true
+  }
+]

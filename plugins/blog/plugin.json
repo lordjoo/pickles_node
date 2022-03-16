@@ -1,6 +1,0 @@
-{
-    "name":"blog_plugin",
-    "version":"1.0.0",
-    "author":"Youssef",
-    "entryFile":"./src/blog.js"
-}
