@@ -71,6 +71,7 @@ export const reload = () => {
     }
     const plugins =  scanPluginFolder();
     setPicklesJSONContent(plugins);
+    return plugins;
 };
 
 

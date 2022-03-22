@@ -1,8 +1,8 @@
 import {Router} from "express"
 import bodyParser from "body-parser";
-import {install} from "../installer/gitInstall";
 import {activatePlugin, allPlugins, deActivatePlugin} from "../pickles_utils";
 import {reload} from "../reloader";
+import { install } from "../installer/plugin_installer";
 
 const router = Router();
 router.use(bodyParser.json())
@@ -46,10 +46,20 @@ router.route('/de-activate/:plugin').post((req,res) => {
    }
 });
 
-router.route("/install/git").post((req,res) => {
-    console.log(req.body);
-    install(req.body.repo)
-    return res.json("hi");
+router.route("/install/:method").post((req,res) => {
+    const {status,message} = install(req.body.source,req.params.method);
+    if (status) {
+        return res.json({
+            status:true,
+            message:message
+        });
+    } else {
+        return res.status(500).json({
+            status:false,
+            message:message
+        });
+    }
+    
 });
 
 

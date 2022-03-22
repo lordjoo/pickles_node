@@ -1,5 +1,7 @@
 node_modules
 .env
-.idea
+.idea/
 .code
 plugins/*?node_modules
+plugins/*
+logs/*

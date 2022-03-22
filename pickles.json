@@ -1,9 +1,9 @@
 [
   {
-    "name": "books_manager",
+    "name": "pickles_inline",
     "entryFile": "src/main.js",
     "version": "v0.0.1",
-    "pathOnDisk": "/home/lordjoo/work/pickles_node/plugins/pickles_node_sample",
-    "isActive": true
+    "pathOnDisk": "/home/lordjoo/work/pickles_node/plugins/pickles_inline",
+    "isActive": false
   }
 ]
